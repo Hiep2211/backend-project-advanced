@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6276102-44bb-4e18-966e-8c16522b8413" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/microservices-demo.pom" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account-manager/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account-manager/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-manager/src/main/java/com/hiep2211/accountmanager/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-manager/src/main/java/com/hiep2211/accountmanager/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-manager/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/template" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="KubernetesApiProvider">{
@@ -64,7 +73,7 @@
     "Spring Boot.ApiGatewayApplication.executor": "Run",
     "Spring Boot.EurekaServerApplication.executor": "Run",
     "Spring Boot.GatewayApplication.executor": "Run",
-    "git-widget-placeholder": "feature/user-service",
+    "git-widget-placeholder": "feature/test",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Hiep2211/Downloads/backend/microservices-demo",
@@ -87,7 +96,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AccountManagerApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
     <configuration name="AccountManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="account-manager" />
