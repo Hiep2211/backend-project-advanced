@@ -1,15 +1,17 @@
-package com.hiep2211.accountmanager;
+package com.hiep2211.configserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class AccountManagerApplication {
+@EnableConfigServer
+public class ConfigServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AccountManagerApplication.class, args);
+        SpringApplication.run(ConfigServerApplication.class, args);
     }
 
 }

@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Hiep2211/config-server.git
+          clone-on-start: true
+server:
+  port: 8763
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
+

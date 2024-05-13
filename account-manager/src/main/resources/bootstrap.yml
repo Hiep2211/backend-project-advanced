@@ -8,16 +8,13 @@ spring:
     password: Hiep221102
   config:
     import: configserver:http://localhost:8763
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
 server:
   port: 8081
   servlet:
-    context-path: /account-manager
+    context-path: account-manager
 eureka:
   client:
     service-url:
       default-zone: http://localhost:8761/eureka
+
 
